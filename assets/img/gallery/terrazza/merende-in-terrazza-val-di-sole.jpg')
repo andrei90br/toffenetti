@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <!--<meta charset="utf-8">-->
+	<meta charset="iso-8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/favicon.ico">
+
+    <title>TOFFENETTI VAL DI SOLE by ALBERTO</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/bootstrap-4-0-0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="/bootstrap-4-0-0/css/carousel.css" rel="stylesheet"> -->
+	<link href="/bootstrap-4-0-0/css/eshop.css" rel="stylesheet">
+	<link href="/bootstrap-4-0-0/css/custom.css" rel="stylesheet">
+	<link href="/bootstrap-4-0-0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="/lightbox/css/lightbox.css" rel="stylesheet">
+	<style type="text/css">
+
+/* Makes images fully responsive */
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-follow-overlay {
+	position: absolute;
+	top: 50%;
+	right: 30px;
+	transform: translateY(-50%);
+	max-width: 450px; /* regola in base alla dimensione reale del file */
+	height: auto;
+	z-index: 20; /* sopra le frecce (.carousel-control) e gli indicatori */
+}
+
+	</style>
+	
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+<header id="header" style="position: relative;">
+	<!-- Header Gray Band  -->
+	<section class="wel-t-band">  
+		<div class="container">
+			<div class="top-header">
+				<div class=" col-lg-12 pull-left" style="padding-left: 0px;">
+					<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 pull-left">
+						TOFFENETTI VAL DI SOLE by Alberto &bull; Via Brescia 4. 38020 Loc. Presson - Dimaro Folgarida (TN) &bull; <i class="fa fa-phone" aria-hidden="true"></i> 0463.974700 &bull; 
+						<script type="text/javascript" language="javascript">
+						<!--
+						{ coded = "7Atd@ydttZAZyy7.7y"
+						  key = "1k5rGg0ptov3isWFEwaKSPXezMydBc7OIRUCHnqxjZum4QLDJ26YfThA9N8Vlb"
+						  shift=coded.length
+						  link=""
+						  for (i=0; i<coded.length; i++) {
+							if (key.indexOf(coded.charAt(i))==-1) {
+							  ltr = coded.charAt(i)
+							  link += (ltr)
+							}
+							else {     
+							  ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+							  link += (key.charAt(ltr))
+							}
+						  }
+						document.write("<a href='mailto:"+link+"'><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i></a>")
+						}
+						//-->
+						</script><noscript>Sorry, you need Javascript on to email me.</noscript>
+					</div>
+					<div class="col-lg-2 col-md-2 hidden-xs hidden-sm pull-left" style="font-size:25px;">
+						<a href="https://it-it.facebook.com/Toffenetti-595004483873848/" target="_blank" title="Seguici su Facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</header>
+
+    <div class="container navbar-wrapper logo">
+		<div class="row">
+			<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+				<a href="/index.php" title="TOFFENETTI VAL DI SOLE, artigianato in legno e prodotti tipici della Val di Sole- Trentino"><img src="/bootstrap-4-0-0/images/logo-toffenetti-new-300x175.png" style="max-height:100px;" alt="TOFFENETTI VAL DI SOLE, artigianato in legno e prodotti tipici della Val di Sole Trentino"></a>
+			</div>
+			<div class="col-lg-4 col-md-4  hidden-xs hidden-sm pull-right">
+				<img src="/bootstrap-4-0-0/images/valDiSole.png" alt="Toffenetti, artigianato in legno e prodotti tipici della Val di Sole Trentino" style="max-width:100%;">
+			</div>
+		</div>
+	</div>
+	<div class="navbar-wrapper brown">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/index.php"><i class="fa fa-home" aria-hidden="true"></i></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Negozio<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/gastronomia.php">Gastronomia</a></li>
+                    <li><a href="/artigianato.php">Artigianato</a></li>
+                  </ul>
+                </li>
+				<li class="active"><a href="/eshop/index.php"><span style="font-size:16px;font-weight:bold;">SHOP</span></a></li>
+				<li><a href="/eshop-prezzi-spedizione.php">Spedizione</a></li>				
+				<li><a href="/dove-siamo.php">Dove Siamo</a></li>
+				<li><a href="/contatti.php">Contatti</a></li>
+				<li class="active"><a href="/eshop/cart.php"><span style="font-size:20px;"><i class="fa fa-shopping-cart"></i> 
+				0</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>	
+	
+ <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+		<li data-target="#myCarousel" data-slide-to="3"></li>
+		<!--<li data-target="#myCarousel" data-slide-to="4"></li>-->
+      </ol>
+      <div class="carousel-inner" role="listbox">
+	  
+        <!--<div class="item">
+          <img class="first-slide" src="/bootstrap-4-0-0/images/slide-01.jpg" alt="First slide">
+          <div class="container">
+			  <div class="row">
+				<div class="col-lg-8">		  
+					<div class="carousel-caption">
+					  <h1>Taglieri di salumi</h1>
+					  <p>Dopo un'escursione sui sentieri della Val di Sole niente di meglio di un tagliere di speck o casolet con un buon vino trentino</p>
+					  <a class="btn btn-lg btn-primary" href="/merende-degustazioni-prodotti-trentini.php" role="button">Scopri di pi&ugrave;</a>
+					</div>
+				  </div>
+				</div>			
+
+          </div>
+        </div>-->
+		
+        <div class="item active">
+          <img class="second-slide" src="/bootstrap-4-0-0/images/slide-02.jpg" alt="Second slide">
+          <div class="container">
+			  <div class="row">
+				<div class="col-lg-8">
+            <div class="carousel-caption">
+              <h1>Speck del trentino</h1>
+              <p>Offriamo al pubblico una selezione dei migliori speck del trentino in vari tagli e stagionature.</p>
+              <a class="btn btn-lg btn-primary" href="/merende-degustazioni-prodotti-trentini.php" role="button">Scopri di pi&ugrave;</a>
+            </div>
+				  </div>
+				</div>			
+          </div>
+        </div>
+		
+        <div class="item">
+          <img class="third-slide" src="/bootstrap-4-0-0/images/slide-03.jpg" alt="Third slide">
+          <div class="container">
+			  <div class="row">
+				<div class="col-lg-8">
+            <div class="carousel-caption">
+              <h1>La cucina trentina</h1>
+              <p>Da Toffenetti i principali ingredienti della cucina trentina: polenta gialla, riso aromatizzati con funghi, mele o frutti di bosco, paste e aceti balsamici aromatizzati.</p>
+              <a class="btn btn-lg btn-primary" href="/eshop/index.php" role="button">Vai allo shop online</a>
+            </div>
+				  </div>
+				</div>			
+          </div>
+        </div>
+		
+        <div class="item">
+          <img class="third-slide" src="/bootstrap-4-0-0/images/slide-04.jpg" alt="Third slide">
+          <div class="container">
+			  <div class="row">
+				<div class="col-lg-8">
+            <div class="carousel-caption">
+              <h1>Vini e birre della tradizione trentina</h1>
+              <p>Tutti gli aromi dei vini trentini, rossi, bianchi o aromatici, e i sapori delle birre artigianali ispirate a ricette locali.</p>
+              <a class="btn btn-lg btn-primary" href="/eshop/index.php" role="button">Vai allo shop online</a>
+            </div>
+				  </div>
+				</div>			
+          </div>
+        </div>		
+		
+        <div class="item">
+          <img class="third-slide" src="/bootstrap-4-0-0/images/slide-05.jpg" alt="Third slide">
+          <div class="container">
+			  <div class="row">
+				<div class="col-lg-8">
+            <div class="carousel-caption">
+              <h1>Distillati e grappe</h1>
+              <p>I gusti forti, gusti della tradizione alpina.</p>
+              <a class="btn btn-lg btn-primary" href="/eshop/index.php" role="button">Scopri di pi&ugrave;</a>
+            </div>
+				  </div>
+				</div>			
+          </div>
+        </div>		
+		
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Precedente</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Successiva</span>
+      </a>
+	  
+  <!-- Overlay "Seguici" -->
+  <img src="images/segui-il-rosso.webp" alt="Seguici sui social" class="carousel-follow-overlay hidden-xs hidden-sm">
+    </div>
+	 <!-- /.carousel -->
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+<div class="box-lungo-grigio">
+    
+<!--<section class="promozioni">
+	<div class="container">	
+		<div class="row ">
+					<div class="col-lg-6  col-sm-12">
+						<h1>Box assaggi delle Dolomiti</h1>
+						<h4 style="color:red;">IN PROMOZIONE</h4>
+					<p>
+					Direttamente a casa tua i prodotti tipici delle nostre montagne. Anche se devi stare a casa non rinuncuiare al gusto.<br />
+					</p>
+					<h4>
+					E se aquisti questi prodotti <strong> la spedizione la paghiamo noi!</strong>
+					</h4>
+										
+					<p>
+					<br />
+								Box assaggi delle dolomit composto da:<br />
+Succo di mela 3lt., strudel trentino, grappa barricata cl 20, biscotti sottobosco, confettura sottobosco, salame selvaggina, trancio speck, polenta precotta, formaggio nostrano					</p>
+					<h4>
+													<br  /><strong>A SOLO &#8364; 74,50</strong><br /><br />
+					</h4>
+													<div id="pull_offerta" class="btn btn-lg btn-danger addtocart"><a href="#" onClick="window.location.href='/eshop/cart.php?action=add&p=508';">Aggiungi / Add &gt;</a></div>
+									
+					</div>
+					<div class="col-lg-6 col-sm-12 promozioni">
+						<a href="https://www.toffenetti.it/eshop/images/no-image-large.jpg" data-lightbox="lightbox" data-title="Box assaggi delle dolomiti"  ><img src="https://www.toffenetti.it/eshop/images/product/thumbs-no-image.png" class="img-thumbnail img-responsive" alt="Box assaggi delle dolomiti" title="Box assaggi delle dolomiti"/></a>
+					</div>						
+		</div>
+	</div>
+</section>	-->
+<section class="promozioni">
+	<div class="container">	
+		<div class="row ">
+			<div class="col-lg-12">
+										<h3>Orari</h3>
+							<p>
+								9.15   -12.15<br />
+15.00 -18.00<br />
+<br />
+DOMENICA MATTINA APERTO<br />
+MARTEDI' POMERIGGIO CHIUSO<br />
+<br />
+FUORI STAGIONE ORARI POSSONO CAMBIARE<br />
+PREGO TELEFONARE AL 335/706447							</p>
+									</div>
+		</div>
+	</div>
+</section>
+
+<div class="container">	
+<img src="images/segui-il-rosso.webp" alt="Seguici sui social" class="hidden-md hidden-lg hidden-xl">
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="page-header">
+					<h1>I nostri prodotti<br />
+					<small><a href="https://www.toffenetti.it/eshop/index.php"><i class="fa fa-shopping-cart" aria-hidden="true"></i> acquista online!</a></small></h1>
+					<!--
+					<h3 style="color:red;">PROMOZIONE<br />TRASPORTO GRATIS!</h3>
+					<h4 style="line-height:25px;">Per i tuoi acquisti online con imporrto superiore a &euro; 89,99 le spese di spedizione sono GRATIS! <span style="color:red;">Risparmi &euro; 9!</span></h4>
+					<p><small>Offerta valida per ordini con pagmamento tramite bonifico bancario e indirizzo di consegna in Italia</small></p>
+					-->
+			<h4> Per informazioni e ordini<br />
+			puoi contattarci su</h4>
+			<h3>
+			<a class="nav-link" href="https://api.whatsapp.com/send?phone=393357064478">
+				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+         viewBox="0 0 138 39" width="200" height="56" style="enable-background:new 0 0 138 39;" xml:space="preserve">
+    <style type="text/css">
+        .st0{fill:#00E676;}
+        .icon_logo_white{fill:#000000;}
+    </style>
+
+    <path class="st0" d="M10.7,32.8l0.6,0.3c2.5,1.5,5.3,2.2,8.1,2.2l0,0c8.8,0,16-7.2,16-16c0-4.2-1.7-8.3-4.7-11.3
+        c-3-3-7-4.7-11.3-4.7c-8.8,0-16,7.2-15.9,16.1c0,3,0.9,5.9,2.4,8.4l0.4,0.6l-1.6,5.9L10.7,32.8z"/>
+    <path class="icon_logo_white" d="M32.4,6.4C29,2.9,24.3,1,19.5,1C9.3,1,1.1,9.3,1.2,19.4c0,3.2,0.9,6.3,2.4,9.1L1,38l9.7-2.5
+        c2.7,1.5,5.7,2.2,8.7,2.2l0,0c10.1,0,18.3-8.3,18.3-18.4C37.7,14.4,35.8,9.8,32.4,6.4z M19.5,34.6L19.5,34.6c-2.7,0-5.4-0.7-7.7-2.1
+        l-0.6-0.3l-5.8,1.5L6.9,28l-0.4-0.6c-4.4-7.1-2.3-16.5,4.9-20.9s16.5-2.3,20.9,4.9s2.3,16.5-4.9,20.9C25.1,33.8,22.3,34.6,19.5,34.6
+        z M28.3,23.5L27.2,23c0,0-1.6-0.7-2.6-1.2c-0.1,0-0.2-0.1-0.3-0.1c-0.3,0-0.5,0.1-0.7,0.2l0,0c0,0-0.1,0.1-1.5,1.7
+        c-0.1,0.2-0.3,0.3-0.5,0.3h-0.1c-0.1,0-0.3-0.1-0.4-0.2l-0.5-0.2l0,0c-1.1-0.5-2.1-1.1-2.9-1.9c-0.2-0.2-0.5-0.4-0.7-0.6
+        c-0.7-0.7-1.4-1.5-1.9-2.4l-0.1-0.2c-0.1-0.1-0.1-0.2-0.2-0.4c0-0.2,0-0.4,0.1-0.5c0,0,0.4-0.5,0.7-0.8c0.2-0.2,0.3-0.5,0.5-0.7
+        c0.2-0.3,0.3-0.7,0.2-1c-0.1-0.5-1.3-3.2-1.6-3.8c-0.2-0.3-0.4-0.4-0.7-0.5h-0.3c-0.2,0-0.5,0-0.8,0c-0.2,0-0.4,0.1-0.6,0.1
+        l-0.1,0.1c-0.2,0.1-0.4,0.3-0.6,0.4c-0.2,0.2-0.3,0.4-0.5,0.6c-0.7,0.9-1.1,2-1.1,3.1l0,0c0,0.8,0.2,1.6,0.5,2.3l0.1,0.3
+        c0.9,1.9,2.1,3.6,3.7,5.1l0.4,0.4c0.3,0.3,0.6,0.5,0.8,0.8c2.1,1.8,4.5,3.1,7.2,3.8c0.3,0.1,0.7,0.1,1,0.2l0,0c0.3,0,0.7,0,1,0
+        c0.5,0,1.1-0.2,1.5-0.4c0.3-0.2,0.5-0.2,0.7-0.4l0.2-0.2c0.2-0.2,0.4-0.3,0.6-0.5c0.2-0.2,0.4-0.4,0.5-0.6c0.2-0.4,0.3-0.9,0.4-1.4
+        c0-0.2,0-0.5,0-0.7C28.6,23.7,28.5,23.6,28.3,23.5z"/>
+    <path class="icon_logo_white" d="M56.2,23.5h-0.1l-2.7-10h-2.1l-2.6,10h-0.1l-2.3-10h-2.5l3.6,13.4h2.3l2.7-9.5h0.1l2.7,9.5h2.2l3.5-13.3h-2.4
+        L56.2,23.5z M68.4,16.5c-0.7,0-1.4,0.2-2,0.5c-0.5,0.3-1,0.8-1.2,1.3h-0.2v-5.5h-2.3v14.1h2.3V21c0-0.7,0.2-1.3,0.7-1.8
+        c0.5-0.5,1.1-0.7,1.8-0.7c0.6,0,1.2,0.2,1.6,0.6c0.4,0.5,0.6,1.1,0.5,1.7v6H72v-6.5c0.1-1-0.3-2-0.9-2.8
+        C70.4,16.8,69.4,16.5,68.4,16.5L68.4,16.5z M78.4,16.5c-1.1,0-2.1,0.2-3,0.8c-0.7,0.5-1.2,1.3-1.3,2.1h2.2c0.1-0.3,0.4-0.6,0.7-0.8
+        c0.4-0.2,0.9-0.3,1.3-0.3c0.5,0,1,0.1,1.4,0.4c0.3,0.3,0.5,0.7,0.5,1.2v0.9l-2.6,0.2c-1,0-2,0.3-2.9,0.9c-0.7,0.5-1,1.3-1,2.2
+        c0,0.8,0.3,1.6,0.9,2.2c0.7,0.6,1.5,0.9,2.4,0.8c0.6,0,1.2-0.1,1.8-0.4c0.5-0.3,0.9-0.7,1.2-1.1h0.2v1.4h2.2v-7
+        c0.1-1-0.3-1.9-1.1-2.5C80.5,16.7,79.4,16.4,78.4,16.5L78.4,16.5z M80.2,23.2c0,0.6-0.2,1.1-0.7,1.5c-0.5,0.4-1.1,0.6-1.7,0.6
+        c-0.5,0-0.9-0.1-1.3-0.4c-0.3-0.2-0.5-0.6-0.5-1c0-0.8,0.6-1.3,1.9-1.4l2.3-0.1L80.2,23.2L80.2,23.2z M87.8,14.3h-2.3v2.5h-1.7v1.8
+        h1.7v5.5c-0.1,0.8,0.2,1.6,0.8,2.1c0.7,0.5,1.6,0.7,2.5,0.6c0.4,0,0.8,0,1.2-0.1V25c-0.3,0-0.5,0-0.8,0c-0.4,0-0.8-0.1-1.1-0.3
+        c-0.2-0.3-0.4-0.7-0.3-1.1v-5H90v-1.8h-2.2C87.8,16.8,87.8,14.3,87.8,14.3z M97,21.1l-1.8-0.4c-0.4-0.1-0.8-0.2-1.1-0.5
+        c-0.2-0.2-0.4-0.4-0.4-0.7c0-0.4,0.2-0.7,0.5-0.9c0.4-0.2,0.9-0.4,1.3-0.3c0.5,0,0.9,0.1,1.3,0.3c0.3,0.2,0.5,0.5,0.6,0.9h2.2
+        c0-0.9-0.5-1.7-1.2-2.2c-0.9-0.5-1.9-0.8-2.9-0.8c-1,0-2.1,0.3-2.9,0.9c-0.7,0.5-1.1,1.4-1.1,2.2c0,0.7,0.2,1.3,0.7,1.8
+        c0.6,0.5,1.4,0.9,2.2,1l1.8,0.4c0.9,0.2,1.4,0.6,1.4,1.2c0,0.4-0.2,0.7-0.5,0.9c-0.4,0.2-0.9,0.4-1.4,0.3c-0.5,0-1-0.1-1.4-0.3
+        c-0.3-0.2-0.6-0.5-0.7-0.9h-2.3c0,0.9,0.5,1.7,1.3,2.2c0.9,0.6,2,0.8,3,0.8c1.1,0,2.2-0.3,3.1-0.9c0.8-0.5,1.2-1.4,1.2-2.4
+        c0-0.7-0.2-1.3-0.7-1.8C98.4,21.5,97.7,21.2,97,21.1L97,21.1z M105.4,13.5l-4.8,13.4h2.4l1.2-3.4h5l1.1,3.4h2.6l-4.8-13.4H105.4
+        L105.4,13.5z M104.8,21.6l1.8-5.5h0.2l1.8,5.5H104.8L104.8,21.6z M120,16.6c-0.7,0-1.3,0.2-1.9,0.5c-0.5,0.3-1,0.8-1.3,1.4h-0.2
+        v-1.7h-2.2v13.4h2.3v-4.8h0.2c0.3,0.5,0.7,1,1.2,1.3c0.6,0.3,1.2,0.5,1.9,0.4c1.2,0,2.3-0.5,3-1.4c0.8-1.1,1.2-2.5,1.1-3.8
+        c0.1-1.4-0.3-2.7-1.1-3.8C122.3,17,121.1,16.5,120,16.6L120,16.6z M121.1,24.2c-0.8,1-2.4,1.2-3.4,0.3c-0.1-0.1-0.2-0.2-0.3-0.3
+        c-0.5-0.7-0.7-1.5-0.7-2.4c0-0.9,0.2-1.7,0.7-2.4c0.9-1,2.4-1.2,3.4-0.3c0.1,0.1,0.2,0.2,0.3,0.3c0.5,0.7,0.7,1.6,0.7,2.4
+        C121.8,22.7,121.6,23.5,121.1,24.2L121.1,24.2z M134.6,18c-0.7-0.9-1.9-1.5-3.1-1.4c-0.7,0-1.3,0.2-1.9,0.5c-0.5,0.3-1,0.8-1.3,1.4
+        h-0.2v-1.7H126v13.4h2.3v-4.8h0.2c0.2,0.5,0.6,1,1.2,1.3c0.6,0.3,1.2,0.5,1.9,0.4c1.2,0.1,2.3-0.5,3.1-1.4c0.8-1.1,1.2-2.5,1.1-3.8
+        C135.8,20.4,135.4,19.1,134.6,18z M132.7,24.2c-0.8,1-2.4,1.2-3.4,0.3c-0.1-0.1-0.2-0.2-0.3-0.3c-0.5-0.7-0.7-1.5-0.7-2.4
+        c0-0.9,0.2-1.7,0.7-2.4c0.9-1,2.4-1.2,3.4-0.3c0.1,0.1,0.2,0.2,0.3,0.3c0.5,0.7,0.7,1.6,0.7,2.4C133.4,22.7,133.1,23.5,132.7,24.2
+        L132.7,24.2z"/>
+    </svg>
+				</a>	
+</h3>				
+		<h3 style="color:red;">PROMOZIONE<br />TRASPORTO GRATIS!</h3>
+		<h4 style="line-height:25px;">Per i tuoi acquisti online con importo superiore a &euro; 95 e pagamento con Bonifico Bancario le spese di spedizione sono GRATIS!*</h4>
+		<p>*<small>Il peso del materiale ordinato non deve superare i 75 chilogrammi e l'indirizzo di consegna deve essere in Italia.<br />
+				  In caso di superamento della soglia, le spese di spedizione saranno conteggiate in base al peso e comunicate via posta elettronica.</small></p>
+					
+				</div>
+		
+		</div>
+			<div class="col-lg-5">
+				<div class="page-header">
+					<h1 style="margin-bottom: 5px;">TOFFENETTI VAL DI SOLE</h1>
+					<h3 style="margin-top: 0px;">by Alberto</h3>
+				</div>
+					<h3>
+					Tantri prodotti locali selezionati con cura per voi!
+					</h3>
+					<p class="lead">
+					Ci trovate nella deliziosa localit&agrave; di Presson, una frazione del comune di Dimaro-Folgarida in <strong>Val di Sole</strong>, con comodo accesso dalla SS42, grande parcheggio e ampi spazi dedicati ai pullman.
+					</p>
+					<p class="lead">
+					La tradizione familiare iniziata negli anni &rsquo;80 dal padre Livio e dalla madre Dima &egrave; portata avanti dalla famiglia Toffenetti con lo stesso spirito. Troverete un ambiente familiare e una vasta offerta di <strong>prodotti di qualit&agrave;</strong> che nel tempo si &egrave; evoluta con la fornita cantina dei migliori vini e grappe come la Zucal di cui Toffenetti &egrave; esclusivista, tanti prodotti tipici come i formaggi di malga, i salami, le lucaniche, lo speck stagionato in casa secondo la pi&ugrave; genuina tradizione familiare e molti altri prodotti trentini da assaporare nella caratteristica sala degustazione.
+					</p>
+					<p class="lead">
+					All'interno troverete anche una zona dedicata all&rsquo;<strong>oggettistica</strong>, una vasta scelta di artigianato locale e idee regalo.
+					</p>
+					<p class="lead">
+					Per i gruppi si organizzano merende gustose legate ai sapori della migliore <strong>tradizione trentina</strong> locale.
+					</p>
+			</div>
+			<div class="col-lg-3" style="margin: 0px 0 20px;">
+					<img src="images/alberto-omino.png" class="img-responsive" alt="Alberto Toffenetti - Idea regalo - Prodotti tipici trentini" style="max-width:370px;">
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--<section class="box-lungo-taglieri" style="padding: 8px 0px;">
+<div class="container">
+	<div class="row">
+			<div class="col-lg-4">
+			  <img class="img-responsive" src="/bootstrap-4-0-0/images/taglieri-di-salumi-trentini.jpg" alt="Generic placeholder image">
+			</div>
+			<div class="col-lg-8">
+			  <h2 class="featurette-heading">Taglieri di <span class="text-muted"> salumi del trentino.</span></h2>
+			  <p class="lead">Dopo una sana attivit&agrave; sportiva ritrova le energia con un tagliere dei prodotti tipi della Val di Sole. Sulla nostra terrazza potrete gustare taglieri di speck, formaggi di malga, il tutto accomapagnato da pregiati vini e grappe selezionate.</p>
+			  <h3 class="featurette-heading"><a href="/merende-degustazioni-prodotti-trentini.php" title="degustazzione e vendita di prodotti tipici trentini">Scopri di pi&ugrave;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></a></h3>
+			</div>
+
+		</div>
+	</div>
+</section>-->
+
+    <div class="container marketing">
+	
+	
+      <!-- START THE FEATURETTES -->
+
+      <div class="row featurette">
+        <div class="col-lg-9  push-md-9">
+          <h2 class="featurette-heading">La gastronomia trentina e i <span class="text-muted">nostri formaggi</span></h2>
+          <p class="lead">
+		  Sugli scaffali del nostro negozio potrete trovare il meglio della gastronomia trentina, a partire dai formaggi tipi dei nostri alpeggi come il Casolet a latte crudo della val di Sole, presidio Slow Food, il formaggio stagionato nel fieno, o il formaggio al teroldego e spezie.<br />
+		Rimanendo nei gusti trentini, come non parlare delle nostre farine di polenta macinata a pietra, anche impreziosite con aromi, dei funghi secchi o sott'olio, degli inconfondibili sughi di cervo o lepre con cui accompagnare un buon piatto di polenta o di tagliatelle.<br />
+		Ultimi, ma non certo per bont&agrave;, da Toffenetti potrete scegliere anche tra la nostra selezione di canederli.<br />Cosa aspettate, tuffatevi nei veri sapori del Trentino! 
+		  </p>
+		  <h3 class="featurette-heading"><a href="/eshop/index.php" role="button">Visita lo shop online</a></h3>
+        </div>
+        <div class="col-lg-3 push-md-3">
+          <img class="featurette-image img-fluid mx-auto img-responsive" src="/bootstrap-4-0-0/images/sottosezione-gastronomia.jpg" alt="Generic placeholder image" style="max-width:250px;">
+        </div>
+      </div>
+      <hr class="featurette-divider">
+	  
+      <!-- <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Il territorio <span class="text-muted">della Val di Sole</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-fluid mx-auto img-responsive" src="/bootstrap-4-0-0/images/sottosezione-territorio.jpg" alt="Generic placeholder image">
+        </div>
+      </div> -->
+
+      <!-- /END THE FEATURETTES -->
+	  
+<!-- LASTEST PRODUCT LIST -->
+	  
+<!-- ==========================
+    	ESHOP - START 
+    =========================== -->
+    <section class="content bg-color-2" id="eshop">
+    	<div class="container">
+            <div class="page-header">
+			  <h1>Prodotti consigliati per te</h1>
+			</div>
+			
+	<div style="width:100%; text-align:center; background-color:#f9f9f9; padding:10px;">
+		<h3 style="color:red;">OFFERTA!</h3>
+		<h4 style="line-height:25px;">Per i tuoi acquisti online con imporrto superiore a &euro; 95 le spese di spedizione sono GRATIS!</h4>
+		<p><small>Offerta valida per ordini con pagmamento tramite bonifico bancario e indirizzo di consegna in Italia</small></p>
+		<p><small>Il peso del materiale ordinato non deve superare i 75 chilogrammi e l'indirizzo di consegna deve essere in Italia.<br />
+In caso di superamento della soglia, le spese di spedizione saranno conteggiate in base al peso e comunicate via posta elettronica.</small></p>
+	</div>
+			
+            <div class="row eshop-main eshop-grid">
+            	<!-- ESHOP CONTENT - START -->
+                <div class="col-md-12 eshop-content">
+                	<div class="row">
+                    	<!-- ESHOP PRODUCT -->
+                    	<div class="col-md-3 col-sm-6">
+                        	<div class="eshop-product">
+                            	<div class="product-tags pull-left">
+                                    <span class="label label-info">Disponibie</span>
+                                    <!--<span class="label label-danger">New</span>-->
+                                </div>
+								                            	<a href="/eshop/index.php?c=0&p=591"><img src="https://www.toffenetti.it/eshop/images/product/thumbs-9631ed9bec2714a80b499f610ce03218.jpg" class="img-responsive" alt=""></a>
+                                <div class="eshop-product-body" style="min-height:160px;">
+                                    <h3><a href="/eshop/index.php?c=0&p=591">Baule piccolo</a></h3>
+									<p>cod. 87.591</p>
+                                    <div class="product-price clearfix">
+									                                        <span class="new-price">&#8364; 65,00</span>
+                                        <!--<button class="btn btn-danger btn-sm addtocart pull-right"><i class="fa fa-shopping-cart"></i></button>-->
+																				<button class="btn btn-danger btn-sm addtocart pull-right" onClick="window.location.href='/eshop/cart.php?action=add&p=591';"><i class="fa fa-shopping-cart"></i></button>
+																			</div>                                   
+                                </div>
+                            </div>
+                        </div>
+                    	<!-- ESHOP PRODUCT -->
+                    	<div class="col-md-3 col-sm-6">
+                        	<div class="eshop-product">
+                            	<div class="product-tags pull-left">
+                                    <span class="label label-info">Disponibie</span>
+                                    <!--<span class="label label-danger">New</span>-->
+                                </div>
+								                            	<a href="/eshop/index.php?c=0&p=590"><img src="https://www.toffenetti.it/eshop/images/product/thumbs-99bab9ec7f175ea4bcaff344bb902e31.jpg" class="img-responsive" alt=""></a>
+                                <div class="eshop-product-body" style="min-height:160px;">
+                                    <h3><a href="/eshop/index.php?c=0&p=590">Baule grande</a></h3>
+									<p>cod. 87.590</p>
+                                    <div class="product-price clearfix">
+									                                        <span class="new-price">&#8364; 95,00</span>
+                                        <!--<button class="btn btn-danger btn-sm addtocart pull-right"><i class="fa fa-shopping-cart"></i></button>-->
+																				<button class="btn btn-danger btn-sm addtocart pull-right" onClick="window.location.href='/eshop/cart.php?action=add&p=590';"><i class="fa fa-shopping-cart"></i></button>
+																			</div>                                   
+                                </div>
+                            </div>
+                        </div>
+                    	<!-- ESHOP PRODUCT -->
+                    	<div class="col-md-3 col-sm-6">
+                        	<div class="eshop-product">
+                            	<div class="product-tags pull-left">
+                                    <span class="label label-info">Disponibie</span>
+                                    <!--<span class="label label-danger">New</span>-->
+                                </div>
+								                            	<a href="/eshop/index.php?c=0&p=589"><img src="https://www.toffenetti.it/eshop/images/product/thumbs-70eb0cdd9cec71e039d46a1fc5b12786.jpg" class="img-responsive" alt=""></a>
+                                <div class="eshop-product-body" style="min-height:160px;">
+                                    <h3><a href="/eshop/index.php?c=0&p=589">porta pane ricamato con prodotti</a></h3>
+									<p>cod. 87.589</p>
+                                    <div class="product-price clearfix">
+									                                        <span class="new-price">&#8364; 45,50</span>
+                                        <!--<button class="btn btn-danger btn-sm addtocart pull-right"><i class="fa fa-shopping-cart"></i></button>-->
+																				<button class="btn btn-danger btn-sm addtocart pull-right" onClick="window.location.href='/eshop/cart.php?action=add&p=589';"><i class="fa fa-shopping-cart"></i></button>
+																			</div>                                   
+                                </div>
+                            </div>
+                        </div>
+                    	<!-- ESHOP PRODUCT -->
+                    	<div class="col-md-3 col-sm-6">
+                        	<div class="eshop-product">
+                            	<div class="product-tags pull-left">
+                                    <span class="label label-info">Disponibie</span>
+                                    <!--<span class="label label-danger">New</span>-->
+                                </div>
+								                            	<a href="/eshop/index.php?c=0&p=588"><img src="https://www.toffenetti.it/eshop/images/product/thumbs-47c240117dce4073fd29ecc31500b99d.jpg" class="img-responsive" alt=""></a>
+                                <div class="eshop-product-body" style="min-height:160px;">
+                                    <h3><a href="/eshop/index.php?c=0&p=588">Tagliere Cervo</a></h3>
+									<p>cod. 87.588</p>
+                                    <div class="product-price clearfix">
+									                                        <span class="new-price">&#8364; 38,50</span>
+                                        <!--<button class="btn btn-danger btn-sm addtocart pull-right"><i class="fa fa-shopping-cart"></i></button>-->
+																				<button class="btn btn-danger btn-sm addtocart pull-right" onClick="window.location.href='/eshop/cart.php?action=add&p=588';"><i class="fa fa-shopping-cart"></i></button>
+																			</div>                                   
+                                </div>
+                            </div>
+                        </div>
+                    	<!-- ESHOP PRODUCT -->
+                    	<div class="col-md-3 col-sm-6">
+                        	<div class="eshop-product">
+                            	<div class="product-tags pull-left">
+                                    <span class="label label-info">Disponibie</span>
+                                    <!--<span class="label label-danger">New</span>-->
+                                </div>
+								                            	<a href="/eshop/index.php?c=0&p=587"><img src="https://www.toffenetti.it/eshop/images/product/thumbs-no-image.png" class="img-responsive" alt=""></a>
+                                <div class="eshop-product-body" style="min-height:160px;">
+                                    <h3><a href="/eshop/index.php?c=0&p=587">Ragu' di Cinghiale</a></h3>
+									<p>cod. 89.587</p>
+                                    <div class="product-price clearfix">
+									                                        <span class="new-price">&#8364; 8,90</span>
+                                        <!--<button class="btn btn-danger btn-sm addtocart pull-right"><i class="fa fa-shopping-cart"></i></button>-->
+																				<button class="btn btn-danger btn-sm addtocart pull-right" onClick="window.location.href='/eshop/cart.php?action=add&p=587';"><i class="fa fa-shopping-cart"></i></button>
+																			</div>                                   
+                                </div>
+                            </div>
+                        </div>
+                    	<!-- ESHOP PRODUCT -->
+                    	<div class="col-md-3 col-sm-6">
+                        	<div class="eshop-product">
+                            	<div class="product-tags pull-left">
+                                    <span class="label label-info">Disponibie</span>
+                                    <!--<span class="label label-danger">New</span>-->
+                                </div>
+								                            	<a href="/eshop/index.php?c=0&p=586"><img src="https://www.toffenetti.it/eshop/images/product/thumbs-no-image.png" class="img-responsive" alt=""></a>
+                                <div class="eshop-product-body" style="min-height:160px;">
+                                    <h3><a href="/eshop/index.php?c=0&p=586">Ragu' di Asino</a></h3>
+									<p>cod. 89.586</p>
+                                    <div class="product-price clearfix">
+									                                        <span class="new-price">&#8364; 8,90</span>
+                                        <!--<button class="btn btn-danger btn-sm addtocart pull-right"><i class="fa fa-shopping-cart"></i></button>-->
+																				<button class="btn btn-danger btn-sm addtocart pull-right" onClick="window.location.href='/eshop/cart.php?action=add&p=586';"><i class="fa fa-shopping-cart"></i></button>
+																			</div>                                   
+                                </div>
+                            </div>
+                        </div>
+                    	<!-- ESHOP PRODUCT -->
+                    	<div class="col-md-3 col-sm-6">
+                        	<div class="eshop-product">
+                            	<div class="product-tags pull-left">
+                                    <span class="label label-info">Disponibie</span>
+                                    <!--<span class="label label-danger">New</span>-->
+                                </div>
+								                            	<a href="/eshop/index.php?c=0&p=585"><img src="https://www.toffenetti.it/eshop/images/product/thumbs-no-image.png" class="img-responsive" alt=""></a>
+                                <div class="eshop-product-body" style="min-height:160px;">
+                                    <h3><a href="/eshop/index.php?c=0&p=585">Ragu' di Camoscio</a></h3>
+									<p>cod. 89.585</p>
+                                    <div class="product-price clearfix">
+									                                        <span class="new-price">&#8364; 8,90</span>
+                                        <!--<button class="btn btn-danger btn-sm addtocart pull-right"><i class="fa fa-shopping-cart"></i></button>-->
+																				<button class="btn btn-danger btn-sm addtocart pull-right" onClick="window.location.href='/eshop/cart.php?action=add&p=585';"><i class="fa fa-shopping-cart"></i></button>
+																			</div>                                   
+                                </div>
+                            </div>
+                        </div>
+                    	<!-- ESHOP PRODUCT -->
+                    	<div class="col-md-3 col-sm-6">
+                        	<div class="eshop-product">
+                            	<div class="product-tags pull-left">
+                                    <span class="label label-info">Disponibie</span>
+                                    <!--<span class="label label-danger">New</span>-->
+                                </div>
+								                            	<a href="/eshop/index.php?c=0&p=584"><img src="https://www.toffenetti.it/eshop/images/product/thumbs-no-image.png" class="img-responsive" alt=""></a>
+                                <div class="eshop-product-body" style="min-height:160px;">
+                                    <h3><a href="/eshop/index.php?c=0&p=584">CREMA NOCCIOLA</a></h3>
+									<p>cod. 44.584</p>
+                                    <div class="product-price clearfix">
+									                                        <span class="new-price">&#8364; 18,90</span>
+                                        <!--<button class="btn btn-danger btn-sm addtocart pull-right"><i class="fa fa-shopping-cart"></i></button>-->
+																				<button class="btn btn-danger btn-sm addtocart pull-right" onClick="window.location.href='/eshop/cart.php?action=add&p=584';"><i class="fa fa-shopping-cart"></i></button>
+																			</div>                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ESHOP CONTENT - END -->
+            </div>
+            
+        </div>
+    </section>
+    <!-- ==========================
+    	ESHOP - END 
+    =========================== -->
+	  
+<!-- END LATEST PRODUCT LIST -->
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-responsive" src="/bootstrap-4-0-0/images/souvenir-oggetti-legno.jpg" alt="Generic placeholder image">
+          <h2>Artigianato e oggetti in legno</h2>
+          <p>Portate con voi un pezzo di tradizione del Trentino Alto Adige scegliendo dal nostro ampio catalogo di prodotti di artigianato e manufatti in legno. Da Toffenetti potrete trovare anche una ricca selezione di giocattoli in legno senza dimenticare un visita al nostro reparto dedicato ai Mercatini di Natale.</p>
+          <p><a class="btn btn-secondary" href="https://www.toffenetti.it/artigianato.php" role="button">Maggiori informazioni &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-responsive" src="/bootstrap-4-0-0/images/evidenza-due-140x140.jpg" alt="Generic placeholder image" >
+          <h2>Grappe e liquori</h2>
+          <p>Il trentino, terra di elezione di vitigni prestigiosi quali il Groppello, M&uuml;ller-Thurgau, Gew&uuml;rztraminer, Teroldego, Lagrein e molti altri, ci regala una vasta gamma di grappe e distillati dall'intenso sapore naturale o arricchito da aromi del territorio come le note grappe alla frutta o alle erbe di montagna.</p>
+          <p><a class="btn btn-secondary" href="https://www.toffenetti.it/gastronomia.php" role="button">Maggiori informazioni &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-responsive" src="/bootstrap-4-0-0/images/artigianato-trentino.jpg" alt="Generic placeholder image" height="140">
+          <h2>Artigianato trentino</h2>
+          <p>Ispirate al tempo trascorso nella Stube, la caratteristica stanza in legno anticamente fulcro della vita domestica, le nostre stoffe tirolesi dai tipici ricami porteranno a casa vostra il calore e l'allegra della Val di Sole. Nel nostro negozio potrete trovare oltre alle stoffe anche le comede e calde pantofole.</p>
+          <p><a class="btn btn-secondary" href="https://www.toffenetti.it/gastronomia.php" role="button">Maggiori informazioni &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+	  
+		<hr class="featurette-divider">
+		
+	  </div>
+	  
+<div class="box-lungo-grigio">
+<iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.it/maps?f=q&amp;source=s_q&amp;hl=it&amp;geocode=&amp;q=Via+Brescia,+2,+Monclassico+TN+toffenetti&amp;aq=&amp;sll=46.331869,10.883524&amp;sspn=0.006452,0.016512&amp;ie=UTF8&amp;hq=toffenetti&amp;hnear=Via+Brescia,+2,+Monclassico,+Trento,+Trentino-alto+Adige&amp;t=m&amp;cid=9490464075689315882&amp;ll=46.341239,10.886078&amp;spn=0.029627,0.080595&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+</div>
+
+<div class="box-lungo-grigio territorio">
+	<div class="container marketing">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 hidden-xs hidden-sm">
+				<img class="img-responsive" src="/bootstrap-4-0-0/images/sottosezione-territorio.jpg" alt="Generic placeholder image">
+			</div>
+			<div class="col-lg-8 col-md-8 col-sm-8">
+          <h2 class="featurette-heading">Il territorio <span class="text-muted">della Val di Sole</span></h2>
+          <p>
+		  La Val di Sole occupa la parte nord occidentale della provincia di Trento, circondata dai gruppi montuosi dell'Ortles Cevedale, dell'Adamello Presanella, e delle Dolomini di Brenta patrimonio dell'UNESCO.
+		  Capoluogo storico della Valle di Sole &egrave; Mal&egrave; sede dei principali servizi pubblici.
+		  <br />
+		  Tra le attivit&agrave; economiche pi&ugrave; sviluppate oggi il primo posto spetta al turismo affiancato dall'agricoltura, l'allevamento, l'artigianto e il commercio.<br />
+		  Il turismo della Val di Sole &egrave; particolarmente votato agli sport della montagna (MTB, canoa-kajak, rafting ed escursioni) e naturamlmente lo sci nella stagione invernale, con oltre 300 km di poste dei caroselli Folgarida-Marilleva-Madonna di Campiglio, Tonale e Pejo.
+		  </p>
+        </div>
+		</div>
+	</div>
+</div> 
+	  
+	  
+      <!-- FOOTER -->
+	  
+      <footer class="sec-padding footer-bg">
+	  <div class="container marketing">
+        <p class="float-xs-right"><a href="#">Torna su</a></p>
+        <p>&copy; 2026 TOFFENETTI VAL DI SOLE by Alberto<br />
+		<em>di Toffenetti Alberto & C. snc</em><br />
+		<br />Via Brescia 4. Loc. Presson 38020 - Dimaro Folgarida &middot;  <i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+390463974700">0463.974700</a> &middot;  
+		
+						<script type="text/javascript" language="javascript">
+						<!--
+						{ coded = "7Atd@ydttZAZyy7.7y"
+						  key = "1k5rGg0ptov3isWFEwaKSPXezMydBc7OIRUCHnqxjZum4QLDJ26YfThA9N8Vlb"
+						  shift=coded.length
+						  link=""
+						  for (i=0; i<coded.length; i++) {
+							if (key.indexOf(coded.charAt(i))==-1) {
+							  ltr = coded.charAt(i)
+							  link += (ltr)
+							}
+							else {     
+							  ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+							  link += (key.charAt(ltr))
+							}
+						  }
+						document.write("<a href='mailto:"+link+"'><i class=\"fa fa-envelope\" aria-hidden=\"true\"></i></a>")
+						}
+						//-->
+						</script><noscript>Sorry, you need Javascript on to email me.</noscript>
+		
+		<br />
+		Reg. Imp. Trento n. 01194770226 - Codice Fiscale & Partita IVA 01194770226<br />
+		Codice destinatario M5UXCR1<br />
+		PEC: <a href="mailto:toffenetti@pec.it">toffenetti@pec.it</a><br />
+		IBAN: IT10L0816305600000060102193
+
+		<br /><a href="/privacy.php">Privacy</a> <!--&middot; <a href="#">Terms</a>--></p>
+          </div><!-- /.container -->
+	  </footer>
+	  <script src="/bootstrap-4-0-0/js/cookiechoices.js"></script>
+		<script src="/bootstrap-4-0-0/js/codice_barra_cookie.js"></script>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="/bootstrap-4-0-0/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/bootstrap-4-0-0/js/ie10-viewport-bug-workaround.js"></script>
+	<script src="/lightbox/js/lightbox.js"></script>
+  </body>
+</html>
